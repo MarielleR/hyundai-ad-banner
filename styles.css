@@ -157,14 +157,14 @@ main {
     background-color: #355070;
     margin-top: 8px;
     margin-left: 15px;
-    padding: 10px 0px 10px 5px;
+    padding: 10px 0px 0px 5px;
     position: absolute;
     left: 126px;
     box-shadow:-2px 0px rgba(0, 0, 0, 0.2);
     line-height: 1.5;
     width: 135px;
     z-index: 0;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 
@@ -189,6 +189,7 @@ main {
 .main-message-2 h2 {
     font-weight: 500;
     font-size: 9px;
+    margin: 5px 0;
 }
 
 .underline {
