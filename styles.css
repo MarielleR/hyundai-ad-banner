@@ -27,6 +27,10 @@ body {
     border: 1px solid black;
 }
 
+li {
+    list-style: none;
+}
+
 /* Fonts & Typography */
 /* Color codes */
 /* Purple: 355070 */
@@ -36,7 +40,8 @@ h2,
 h3,
 h4,
 p,
-a {
+a,
+li {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -50,7 +55,8 @@ h3 {
 h2,
 p,
 h4,
-a {
+a, 
+li {
     color: white;
 }
 
@@ -67,7 +73,8 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
+    /* font-size: 15px; */
+    font-size: 18px;
 }
 
 h4 {
@@ -75,11 +82,15 @@ h4 {
 }
 
 p {
-    font-size: 10px;
+    font-size: 11px;
 }
 
 a {
     font-size: 10px;
+}
+
+li {
+    font-size: 8px;
 }
 
 
@@ -100,18 +111,27 @@ main {
     background-color: #f7ede2;
 }
 
+.title-text {
+    line-height: 1;
+}
+
 .title-container {
     padding-left: 20px;
     margin-top: 8px;
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 #chevrons {
     width: 20%;
     position: relative;
-    top: 8px;
-    margin-left: 2px;
+}
+
+#chevrons img {
+    width: 160%;
+    max-width: none;
+    height: 60%;
 }
 
 .row-1 {
@@ -122,12 +142,32 @@ main {
 .main-message-1 {
     background-color: #355070;
     margin-top: 8px;
-    padding: 20px 18px 20px 10px;
+    margin-left: 15px;
+    padding: 12px 20px 12px 40px;
     position: relative;
-    right: -30px;
+    right: -20px;
     box-shadow:-2px 0px rgba(0, 0, 0, 0.2);
     line-height: 1.5;
+    width: 135px;
+    z-index: 333;
+    /* opacity: 1; */
 }
+
+.main-message-2 {
+    background-color: #355070;
+    margin-top: 8px;
+    margin-left: 15px;
+    padding: 10px 0px 10px 5px;
+    position: absolute;
+    left: 126px;
+    box-shadow:-2px 0px rgba(0, 0, 0, 0.2);
+    line-height: 1.5;
+    width: 135px;
+    z-index: 0;
+    opacity: 0;
+}
+
+
 
 .row-2 {
     display: flex;
@@ -135,12 +175,36 @@ main {
     margin-left: 15px;
     margin-right: 25px;
     position: relative;
-    bottom: -100px;
+    bottom: -115px;
 }
 
 .legal {
     margin-right: 130px;
     letter-spacing: 1.5px;
+}
+
+/* ALternate Message Styling */
+
+
+.main-message-2 h2 {
+    font-weight: 500;
+    font-size: 9px;
+}
+
+.underline {
+    border-bottom: 2px solid white;
+}
+
+.feature-list {
+    display: flex;
+    flex-direction: row;
+}
+
+.red-chevron {
+    height: 22px;
+    width: 15px;
+    margin-right: 3px;
+
 }
 
 
