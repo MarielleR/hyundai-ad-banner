@@ -39,6 +39,8 @@ h1,
 h2,
 h3,
 h4,
+h5,
+h6,
 p,
 a,
 li {
@@ -48,13 +50,15 @@ li {
 
 
 h1, 
-h3 {
+h3,
+h5 {
     color: #355070;
 }
 
 h2,
 p,
 h4,
+h6,
 a, 
 li {
     color: white;
@@ -79,6 +83,17 @@ h3 {
 
 h4 {
     font-size: 5px;
+    font-weight: 400;
+}
+
+h5 {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 23px;
+    font-weight: 400;
 }
 
 p {
@@ -93,7 +108,10 @@ li {
     font-size: 8px;
 }
 
-
+.percent {
+    font-size: 14px;
+    color: white;
+}
 
 /* Main Styles */
 
@@ -150,7 +168,6 @@ main {
     line-height: 1.5;
     width: 135px;
     z-index: 333;
-    /* opacity: 1; */
 }
 
 .main-message-2 {
@@ -164,27 +181,7 @@ main {
     line-height: 1.5;
     width: 135px;
     z-index: 0;
-    /* opacity: 0; */
 }
-
-
-
-.row-2 {
-    display: flex;
-    flex-direction: row;
-    margin-left: 15px;
-    margin-right: 25px;
-    position: relative;
-    bottom: -115px;
-}
-
-.legal {
-    margin-right: 130px;
-    letter-spacing: 1.5px;
-}
-
-/* ALternate Message Styling */
-
 
 .main-message-2 h2 {
     font-weight: 500;
@@ -207,6 +204,71 @@ main {
     margin-right: 3px;
 
 }
+
+.main-message-3 {
+    background-color: #355070;
+    margin-top: 8px;
+    margin-left: 15px;
+    /* padding: 12px 20px 12px 40px; */
+    position: relative;
+    right: -20px;
+    box-shadow:-2px 0px rgba(0, 0, 0, 0.2);
+    line-height: 1.5;
+    width: 135px;
+    z-index: 333;
+}
+
+.white-section {
+    background-color: white;
+    height: 20px;
+}
+
+.figures {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+.figures-a {
+    margin-right: 10px;
+}
+
+
+
+/* .figures-a h6 {
+    border-right: 1px solid white;
+} */
+
+.double-plus {
+    transform: rotate(90deg);
+    display: inline-block;
+    color: white;
+}
+
+.end-section {
+    text-align: center;
+}
+
+
+.row-2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+    margin-right: 25px;
+    position: relative;
+    bottom: -115px;
+}
+
+.legal {
+    margin-right: 130px;
+    letter-spacing: 1.5px;
+}
+
+/* ALternate Message Styling */
+
+
+
 
 
 /* Footer Styles */
