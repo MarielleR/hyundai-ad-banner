@@ -32,9 +32,7 @@ li {
 }
 
 /* Fonts & Typography */
-/* Color codes */
-/* Purple: 355070 */
-/* Orange: EE8559 */
+
 h1,
 h2,
 h3,
@@ -115,6 +113,7 @@ li {
 }
 
 /* Main Styles */
+/* Row 1 of Main */
 
 main {
     background-image: url(./assets/background-tucson.jpeg);
@@ -217,9 +216,6 @@ main {
     margin-top: 8px;
     margin-left: 15px;
     padding-bottom: 5px;
-    /* padding: 12px px 0px 40px; */
-    /* position: absolute;
-    right: -100px; */
     position: absolute;
     left: 151px;
     box-shadow:-2px 0px rgba(0, 0, 0, 0.2);
@@ -258,23 +254,18 @@ main {
     padding-bottom: 5px;
 }
 
-
-
-
-
 .double-plus {
     transform: rotate(90deg);
     display: inline-block;
     color: white;
 }
 
-
-
 .end-section {
     text-align: center;
     margin-top: 3px;
 }
 
+/* Row 2 of Main */
 
 .row-2 {
     display: flex;
@@ -294,10 +285,6 @@ main {
     margin-right: 130px;
     letter-spacing: 1.5px;
 }
-
-/* ALternate Message Styling */
-
-
 
 
 
