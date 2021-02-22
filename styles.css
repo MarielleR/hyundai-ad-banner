@@ -161,7 +161,7 @@ main {
     background-color: #355070;
     margin-top: 8px;
     margin-left: 15px;
-    padding: 12px 20px 12px 40px;
+    padding: 12px 20px 20px 40px;
     position: relative;
     right: -20px;
     box-shadow:-2px 0px rgba(0, 0, 0, 0.2);
@@ -209,36 +209,51 @@ main {
     background-color: #355070;
     margin-top: 8px;
     margin-left: 15px;
-    /* padding: 12px 20px 12px 40px; */
-    position: relative;
-    right: -20px;
+    padding-bottom: 5px;
+    /* padding: 12px px 0px 40px; */
+    /* position: absolute;
+    right: -100px; */
+    position: absolute;
+    left: 152px;
     box-shadow:-2px 0px rgba(0, 0, 0, 0.2);
     line-height: 1.5;
     width: 135px;
-    z-index: 333;
+    z-index: 0;
 }
 
 .white-section {
     background-color: white;
     height: 20px;
+    padding-top: 4px;
+    padding-left: 11px;
+    padding-right: 15px;
 }
 
 .figures {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
-.figures-a {
-    margin-right: 10px;
+.figures-a,
+.figures-b {
+    margin-top: 3px;
+    line-height: 1;
+}
+
+.barrier {
+    transform: rotate(90deg);
+}
+
+.barrier h4 {
+    padding-bottom: 5px;
 }
 
 
 
-/* .figures-a h6 {
-    border-right: 1px solid white;
-} */
+
 
 .double-plus {
     transform: rotate(90deg);
@@ -246,8 +261,11 @@ main {
     color: white;
 }
 
+
+
 .end-section {
     text-align: center;
+    margin-top: 3px;
 }
 
 
