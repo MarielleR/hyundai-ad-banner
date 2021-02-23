@@ -284,6 +284,53 @@ main {
 .legal {
     margin-right: 130px;
     letter-spacing: 1.5px;
+    cursor: pointer;
+}
+
+.legal-styles {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    background-color: white;
+    scroll-behavior: smooth;
+    padding: 2px;
+    height: 50px;
+    /* width: 70px; */
+    overflow-y: scroll;
+    position: relative;
+    top: 20px;
+}
+
+/* ::-webkit-scrollbar {
+    width: 10px;
+} */
+
+::-webkit-scrollbar-thumb {
+  background: #355070; 
+  border-radius: 10px;
+}
+
+
+.legal-styles p {
+    color: black;
+    font-size: 7px;
+    padding: 5px;
+}
+
+.close {
+    /* display: flex;
+    align-self: flex-end; */
+    text-align: right;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+    border: 1px solid black;
 }
 
 

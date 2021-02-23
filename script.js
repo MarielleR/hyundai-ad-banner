@@ -43,6 +43,15 @@ gsap.set("#msg-3", { opacity: 0, duration: 35 });
 gsap.set("#msg-3",  { opacity: 1,  delay: 29 });
 
 
+// Legal Pop Up
+$("#legal").on("click", function() {
+    $("#pop-up").addClass("show");
+})
+
+$("#close").on("click", function() {
+    $("#pop-up").removeClass("show");
+})
+
 
 
 
